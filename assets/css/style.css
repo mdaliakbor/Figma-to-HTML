@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e5e5e52e;
+}
+
+
+
+
+
+/* top header css start   */
+.top_header{
+    background: #7E33E0;
+    color: white;
+}
+.top_header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top_header ul li{
+    padding-left: 38px;
+    display: inline;
+}
+.top_header ul li:first-child{
+    padding-left: 0px;
+}
+/* top css end  */
+
+/* heder css start  */
+#logo{
+    font-weight:700;
+    font-size: 30px;
+}
+#act_color{
+    color:#FB2E86;
+}
+form{
+    position:relative;
+}
+#search{
+    background:#FB2E86;
+    border: none;
+    padding: 7px 17px;
+    position:absolute;
+    right: -37px;
+}
+
+.navbar{
+    position: relative;
+}
+/* header css end  */
+
+/* banner css start  */
+.banner{
+    background: #F2F0FF;
+    position: relative;
+}
+.banner_img_1{
+    position:relative;
+}
+.circel{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#FB2E86;
+    margin: 0;
+    position: absolute;
+    top: 475px;
+    left: 110px;
+}
+.banner_content{
+    margin-top: 200px;
+    margin-left: 15%;
+    margin-right: 24%;
+}
+.banner_content h5{
+    color: #FB2E86;
+}
+.banner_content h1{
+    font-family: 'Josefin Sans';
+    font-size: 50px; 
+    line-height: 66px;
+    letter-spacing: 0.015em;
+    color: #000000;
+    margin-top: 22px;
+}
+.banner_content p{
+    margin-top: 5px;
+}
+.banner_btn{
+    padding: 8px 40px;
+    background-color: #FB2E86;
+    border:none;
+    color:white;
+}
+.discount{
+    background-image: url("../img/Vector 14.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    height: 142px;
+    width: 140px;
+    left: 74%;
+}
+.discount > span{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.banner_img2{
+    position: relative;
+    height: 700px;
+}
+.banner_sd1{
+    position: relative;
+    height: 80%;
+    right: 12%;
+    top: 25%;
+    background-image: url("../img/Ellipse\ 60.png");
+    border-radius: 50%;
+}
+.banner_sd2{
+    position: absolute;
+    height: 80%;
+    right: 25%;
+    top: -51%;
+    background-image: url("../img/Ellipse\ 60.png");
+    border-radius: 50%;
+    position:
+    relative;
+}
+.banner_img2 img{
+    position:
+    absolute;
+    width: 80%;
+    top: 254px;
+    right: 24%;
+    margin: auto;
+}
+
+.three_dot{
+    margin:auto;
+    display: block;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.three_dot .dot_1{
+    width: 10px;
+    height: 10px;
+    background-color: #FB2E86;
+    transform: rotate(138deg);
+    margin: auto;
+    display: inline-block;
+    margin: 5px;
+}
+.three_dot .dot_2{
+    width: 10px;
+    height: 10px;
+    transform: rotate(138deg);
+    margin: auto;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #FB2E86;
+}
+/* banner css end  */
+
+/* Featured Products css start here  */
+.w_head>h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #2F1AC4;
+}
+.p_head{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #2F1AC4;
+}
+.f_product{
+    position:relative;
+    text-align: center;
+    box-shadow: 0px 0px 20px 1px #ced6dd6e;
+}
+.f_product .f_p_img{
+    background-color: #F6F7FB;
+    height: 200px;
+    padding-top: 55px;
+    padding-bottom: 190px;
+}
+.f_product .f_p_cnt{
+    background-color: #FFFFFF;
+    padding: 20px 0px;
+}
+.f_p_icon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.f_p_icon span {
+    padding: 0px 5px;
+}
+.f_product .f_p_img2{
+    background-color: #F7F7F7;
+    height: 200px;
+    padding-top: 55px;
+    padding-bottom: 190px;
+}
+.f_p_btn{
+    border: none;
+    background-color: #08D15F;
+    width: 120px;
+    color: white;
+    margin: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.f_product .f_p_cnt2{
+    background-color: #2F1AC4;
+    padding: 20px 0px;
+    color: white;
+}
+.f_product .f_p_cnt h5{
+    color: #FB2E86;
+}
+.fp1{
+    height: 5px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #05E6B7;
+    display: inline-table;
+}
+.fp2{
+    height: 5px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #F701A8;
+    display: inline-table;
+    margin: 0px 3px;
+}
+.fp3{
+    height: 5px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #00009D;
+    display: inline-table;
+}
+.f_product .f_p_cnt p{
+    margin-top: 10px;
+}
+.f_product .f_p_cnt h6{
+    color: #151875;
+}
+.f_btn{
+    text-align: center;
+}
+.fs1{
+    height: 5px;
+    width: 30px;
+    background-color: #F701A8;
+    display: inline-table;
+    margin:30px 3px;
+    border-radius:10px;
+} 
+.fs2{
+    height: 5px;
+    width: 30px;
+    background-color: #FEBAD7;
+    display: inline-table;
+    margin:30px 3px;
+    border-radius:10px;
+} 
+/* Featured Products css end here  */
+
+/* Leatest Products css start  */
+.l_p_head>h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #2F1AC4;
+}
+.l_p_head ul{
+    text-align: center;
+}
+.l_p_head ul li{
+    list-style: none;
+    display: inline;
+}
+.l_p_head ul li a{
+    text-decoration: none;
+    padding: 5px 25px;
+}
+.l_products{
+    border: 1px 1px 1px 1px solid black;
+    text-align: center;
+    margin: 50px 0px;
+}
+.lp_img{
+    background-color: #e5dede3d;
+    height: 292px;
+    padding-top: 20px;
+}
+.lp_img2{
+    height: 292px;
+    padding-top: 20px;
+}
+.l_products p{
+    font-size: 15px;
+    color: #151875;
+    text-align: justify;
+    padding: 10px 0px;
+    background-color: #FFFFFF;
+}
+.l_products p > span{
+    margin-left: 40%;
+}
+.l_products p >.l_span{
+    color: #F701A8;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+/* Leatest Products end  */
+
+/* What Shopex Offer! css start  */
+.what_shops{
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+    padding: 40px;
+    margin-bottom: 130px;
+    height: 70%;
+}
+.what_shops span > img{
+    width: 24%;
+    margin-top: 50px; 
+    margin-bottom: 10px;
+}
+.what_shops h3{
+    color: #151875;
+    margin: 20px 0px;
+}
+.what_shops p{
+    color: #1A0B5B;
+}
+/* What Shopex Offer! end  */
+
+/* Unique Features css start  */
+.uniqe_banner{
+    background-color: #F1F0FF;
+    height: 540px;
+    position: relative;
+}
+.uniqe_img{
+    background-image: url("../img/Ellipse\ 63.png");
+    width: 100%;
+    height: 455px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#unq_img{
+    width: 440px;
+}
+.uniqe_cnt{
+    position: relative;
+    margin-top: 89px;
+}
+.uniqe_cnt h2{
+    color: #151875;
+    font-weight: 700;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+.uniqe_cnt ul{
+    list-style: none;
+    margin-bottom: 40px;
+    line-height: 26px;
+}
+.uniqe_cnt ul li img{
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    display: block;
+}
+.uniqe_cnt span{
+    color: #151875;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 20px;
+    width: 155px;
+    display: inline-block;
+    margin-top: 0px;
+    position: absolute;
+}
+/* Unique Features end  */
+
+/* Trending Products start */
+.trend_head > h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #2F1AC4;
+}
+.trend_product{
+    text-align: center;
+    background: #FFFFFF;
+    height: 90%;
+    margin: 20px 0px;
+    overflow: hidden;
+    padding: 10px;
+}
+.trend_img{
+    height: 75%;
+    background-color: #e5e5e52e;
+    margin: 10px 10px;
+}
+.trend_img img{
+    margin-top: 40px;
+}
+.trend_product h5{
+    margin: 0;
+    color: #151875;
+    font-weight: 700;
+    }
+.trend_product p{
+    color: #151875;
+    font-weight: 600;
+    line-height: 30px;
+}
+.trend_product p > span{
+    color: #64657d59;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+.trend_product_1{
+    background: #f2e3eb;
+    height: 270px;
+    padding: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.trend_product_1 h3{
+    color: #151875;
+}
+.trend_product_1 p{
+    color: #FB2E86;
+    text-decoration: underline;
+}
+.trend_product_1 img{
+    position: absolute;
+    top: 53px;
+    right: 0px;
+}
+
+.trend_product_2{
+    background: #cbe9f2;
+    height: 270px;
+    padding: 25px;
+    position: relative;
+}
+.trend_product_2 h3{
+    color: #151875;
+}
+.trend_product_2 p{
+    color: #FB2E86;
+    text-decoration: underline;
+}
+.trend_product_2 img{
+    position: absolute;
+    top: 110px;
+    right: 25px;
+}
+
+.trend_img_2{
+    text-align: center;
+    background-color: #e1e4eb94;
+    padding: 5px 0px;
+    width: 100px;
+    margin: 7px 0px;
+}
+.trend_img_2 img{
+}
+.trend_ctn{
+    right: 17%;
+}
+.trend_ctn h5{
+    color: #151875;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.trend_ctn p{
+    color: #151875;
+    font-size: 12px;
+    font-weight: 600;
+}
+/* Trending Products end  */
+
+/* Discount Item css start  */
+.discount_1{
+    position: relative;
+}
+.discount_head{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.discount_head > h1{
+    color: #2F1AC4;
+}
+.discount_head ul{
+    list-style: none;
+}
+.discount_head ul li{
+    display: inline;
+    margin-right: 10px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.discount_cnt{
+    margin-top: 40px;
+    line-height: 25px;
+}
+.discount_cnt h2{
+    color: #2F1AC4;
+}
+.discount_cnt h4{
+    color: #FB2E86;
+    line-height: 50px;
+}
+.discount_cnt ul{
+    padding: 10px 0px;
+    list-style: none;
+}
+.discount_cnt ul li{
+    display: inline-block;
+    width: 48%;
+}
+.discount_cnt ul li img{
+    margin-right: 15px;
+}
+.discount_img{
+    /* position: relative; */
+    width: 88%;
+    height: 95%;
+    background-color: #e1b6dc4d;
+    border-radius: 48%;
+    right: 261px;
+    margin: auto;
+}
+.discount_img img{
+width: 100%;
+}
+/* Discount Item css end */
+
+/* Top Categories css start  */
+.top_categori_head{
+    margin: 60px 0px;
+}
+.top_categori_head h1{
+    color: #2F1AC4;
+    text-align: center;
+}
+.top_categori{
+    text-align: center;
+}
+.top_c_img1{
+    background-color: #8ab0c72e;
+    width: 95%;
+    height: 280px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: relative;
+    box-shadow: -6px 8px #6d6deb85;
+}
+.top_c_img{
+    background-color: #8ab0c72e;
+    width: 95%;
+    height: 280px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: relative;
+}
+.top_c_img1 img{
+    margin-top: 55px;
+}
+.top_c_img img{
+    margin-top: 55px;
+}
+.top_c_btn{
+    border: none;
+    background-color: #08D15F;
+    width: 70px;
+    color: white;
+    padding-top: 3px;
+    border-radius: 10%;
+    padding-bottom: 3px;
+    position: absolute;
+    left: 110px;
+}
+.top_categori p{
+    color: #0d4bd7;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.top_categori span{
+    color: #0b0b66;
+    font-size: 12px;
+    font-weight: 700;
+}
+.three_dot1{
+    margin:
+    auto;
+    display: block;
+    padding: 40px 0px;
+    text-align: center;
+}
+.three_dot1 .dot_11{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FB2E86;
+    margin: auto;
+    display: inline-block;
+    margin: 5px;
+}
+.three_dot1 .dot_12{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #FB2E86;
+}
+
+
+
+/* Top Categories end  */
+
+
+
+
+
+
+
+
+
+
+
